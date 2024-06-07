@@ -1,0 +1,25 @@
+
+<div style="margin: 20px;">
+  
+    <form (ngSubmit)="sendData()">
+      <div>
+        <label for="product_id">Product ID:</label>
+        <input type="number" id="product_id" [(ngModel)]="mst_product_id" name="product_id">
+      </div>
+      <div>
+        <label for="branch_id">Branch ID:</label>
+        <input type="number" id="branch_id" [(ngModel)]="branch_id" name="branch_id">
+      </div>
+      <div>
+        <label for="is_for_repeat_set_combo">Is for repeat set combo:</label>
+        <input type="number" id="is_for_repeat_set_combo" [(ngModel)]="is_for_repeat_set_combo" name="is_for_repeat_set_combo">
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+  
+    
+   
+
